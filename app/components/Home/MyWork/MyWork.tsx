@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionHeading from '../../Helper/SectionHeading'
-import Slider from './Slider'
+import Slider from '../../../work/Slider'
 
 const MyWork = () => {
   return (

@@ -9,7 +9,7 @@ type Props = {
 const SectionHeading = ({children}: Props) => {
   return (
     <h1 className='w-fit text-center px-4 py-3 mx-auto text-black text-2xl 
-    sm:text-3xl md:text-4xl uppercase font-bold'>{children}</h1>
+    sm:text-3xl md:text-4xl uppercase font-bold text-[#292929]'>{children}</h1>
   )
 }
 

@@ -1,0 +1,15 @@
+/* components/AnimatedName.module.css */
+.fadeIn {
+  font-family: 'Dancing Script', cursive; /* cursive font */
+  font-size: 3rem;
+  opacity: 0;
+  transform: translateY(20px); /* starts slightly lower */
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

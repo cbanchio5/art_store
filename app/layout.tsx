@@ -3,15 +3,6 @@ import { Cormorant, Geist, Geist_Mono, Playfair } from "next/font/google";
 import "./globals.css";
 import ResponsiveNavBar from "./components/Home/NavBar/ResponsiveNavBar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const cormorant = Cormorant({
   weight: ["300", "400", "500", "600", "700"]
